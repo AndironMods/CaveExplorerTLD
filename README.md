@@ -16,7 +16,7 @@
 2. Walk around – your path is recorded automatically
 3. Press the **map key** (default **M**) to open or close the cave map. **Esc** or the **Back** button also close it
 
-The map looks like the game's map: black where you have not been, your path as a light line, a cave icon at every entrance and exit. The title and "last updated" are shown top left, the cave name top right, all in your game language. North is at the top. The red dot is your position, the short red line shows where you are looking.
+The map looks like the game's map: black where you have not been, your path as a light band that fills the passages you walked through, a cave icon at every entrance and exit. The title and "last updated" are shown top left, the cave name top right, all in your game language. North is at the top. The red dot is your position, the short red line shows where you are looking.
 
 
 ## Installation
@@ -59,7 +59,7 @@ The settings are stored in `Mods\CaveExplorerSettings.json`.
 
 ## Excluding Places
 
-Every place you enter through a loading screen whose internal name contains "Cave" or "Mine" gets a map. To turn it off for single places, add their scene names to `Mods\CaveExplorerExclude.json` if nessessary.
+Every place you enter through a loading screen whose internal name contains "Cave" or "Mine" gets a map. To turn it off for single places, add their scene names to `Mods\CaveExplorerExclude.json` if necessary.
 The scene name is shown in the MelonLoader console when you enter a cave ("Entered cave …"). Changes are used the next time you enter a place, no restart needed. If the file has an error, the mod shows it in the console, keeps using the last valid list and does not change the file.
 
 
